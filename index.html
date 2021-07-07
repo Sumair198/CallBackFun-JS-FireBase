@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyC67Lrw00unPGYP_G7p02gpz17p52ysdgk",
+    authDomain: "online-webmobile-a7eca.firebaseapp.com",
+    projectId: "online-webmobile-a7eca",
+    storageBucket: "online-webmobile-a7eca.appspot.com",
+    messagingSenderId: "707670862703",
+    appId: "1:707670862703:web:b19c3d03074a022c50169a",
+    measurementId: "G-B882KQCW5S"
+  };
+ 
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+<body>
+    <button onclick="sendData()">SendData</button>
+    <button onclick="getData()">getData</button>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
